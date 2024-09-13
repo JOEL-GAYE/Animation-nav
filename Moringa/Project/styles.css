@@ -1,0 +1,43 @@
+tbody {
+    border: 20px;
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+    color: blue;
+    text-align: center;
+}
+
+#active-row {
+    color: orchid;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+}
+.table-content{
+    border: 20px;
+
+}
+#mapera{
+    color: aquamarine;
+    font-weight:solid;
+    font-size: large; 
+}
+#neko{
+    color: yellowgreen;
+    font-size: larger;
+    
+}
+.table-content{
+    color: forestgreen;
+    font-family: serif;
+    font-size: large;
+
+}
+#bruno{
+    color: coral;
+}
+.come-class{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-style:italic;
+    color: springgreen;
+    text-align: left;
+    text-decoration: solid;
+}
