@@ -1,0 +1,75 @@
+2024-11-16 19:35:04.385 [info] 
+
+
+
+
+2024-11-16 19:35:04.408 [info] Extension host agent started.
+2024-11-16 19:35:04.607 [info] [127.0.0.1][5a7eaf04][ManagementConnection] New connection established.
+2024-11-16 19:35:05.037 [info] [127.0.0.1][c8e51700][ExtensionHostConnection] New connection established.
+2024-11-16 19:35:05.091 [info] [127.0.0.1][c8e51700][ExtensionHostConnection] <140> Launched Extension Host Process.
+2024-11-16 19:35:06.785 [error] [network] #2: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST AggregateError [ETIMEDOUT]: 
+2024-11-16 19:35:10.540 [error] [network] #3: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST AggregateError [ETIMEDOUT]: 
+2024-11-16 19:38:28.041 [info] Getting Manifest... ritwickdey.liveserver
+2024-11-16 19:38:28.322 [info] Installing extension: ritwickdey.liveserver {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"donotVerifySignature":false,"context":{"clientTargetPlatform":"win32-x64"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"profileLocation":{"$mid":1,"fsPath":"/home/gaye/.vscode-server/extensions/extensions.json","external":"file:///home/gaye/.vscode-server/extensions/extensions.json","path":"/home/gaye/.vscode-server/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.95.3","date":"2024-11-13T14:50:04.152Z"}}
+2024-11-16 19:38:49.659 [info] Extension signature verification result for ritwickdey.liveserver: Success. Executed: true. Duration: 2151ms.
+2024-11-16 19:38:53.766 [error] [network] #7: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST AggregateError [ETIMEDOUT]: 
+2024-11-16 19:38:54.422 [info] Extracted extension to file:///home/gaye/.vscode-server/extensions/ritwickdey.liveserver-5.7.9: ritwickdey.liveserver
+2024-11-16 19:38:54.432 [info] Renamed to /home/gaye/.vscode-server/extensions/ritwickdey.liveserver-5.7.9
+2024-11-16 19:38:54.444 [info] Extension installed successfully: ritwickdey.liveserver file:///home/gaye/.vscode-server/extensions/extensions.json
+2024-11-16 19:38:56.983 [error] [network] #8: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST AggregateError [ETIMEDOUT]: 
+2024-11-16 19:39:09.429 [error] [network] #9: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST AggregateError [ETIMEDOUT]: 
+2024-11-16 19:39:12.953 [error] [network] #10: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST AggregateError [ETIMEDOUT]: 
+2024-11-16 19:39:33.285 [info] [127.0.0.1][c8e51700][ExtensionHostConnection] <140> [0mGET /styles.css [33m404[0m 5.043 ms - 149[0m
+
+2024-11-16 19:39:33.289 [info] [127.0.0.1][c8e51700][ExtensionHostConnection] <140> [0mGET /poster-image.jpg [33m404[0m 7.790 ms - 155[0m
+
+2024-11-16 19:39:33.344 [info] [127.0.0.1][c8e51700][ExtensionHostConnection] <140> [0mGET /favicon.ico [33m404[0m 0.936 ms - 150[0m
+
+2024-11-16 19:39:53.965 [info] [127.0.0.1][c8e51700][ExtensionHostConnection] <140> [0mGET /styles.css [33m404[0m 2.694 ms - 149[0m
+
+2024-11-16 19:39:53.966 [info] [127.0.0.1][c8e51700][ExtensionHostConnection] <140> [0mGET /poster-image.jpg [33m404[0m 2.319 ms - 155[0m
+
+2024-11-16 19:40:12.139 [info] [127.0.0.1][c8e51700][ExtensionHostConnection] <140> [0mGET /styles.css [33m404[0m 1.533 ms - 149[0m
+
+2024-11-16 19:40:12.146 [info] [127.0.0.1][c8e51700][ExtensionHostConnection] <140> [0mGET /poster-image.jpg [33m404[0m 1.908 ms - 155[0m
+
+2024-11-16 19:40:13.527 [info] [127.0.0.1][c8e51700][ExtensionHostConnection] <140> [0mGET /styles.css [33m404[0m 4.204 ms - 149[0m
+
+2024-11-16 19:40:13.528 [info] [127.0.0.1][c8e51700][ExtensionHostConnection] <140> [0mGET /poster-image.jpg [33m404[0m 2.605 ms - 155[0m
+
+2024-11-16 19:40:15.067 [info] [127.0.0.1][c8e51700][ExtensionHostConnection] <140> [0mGET /styles.css [33m404[0m 6.227 ms - 149[0m
+
+2024-11-16 19:40:15.069 [info] [127.0.0.1][c8e51700][ExtensionHostConnection] <140> [0mGET /poster-image.jpg [33m404[0m 3.558 ms - 155[0m
+
+2024-11-16 19:40:22.307 [info] [127.0.0.1][c8e51700][ExtensionHostConnection] <140> [0mGET /styles.css [33m404[0m 2.145 ms - 149[0m
+
+2024-11-16 19:40:22.309 [info] [127.0.0.1][c8e51700][ExtensionHostConnection] <140> [0mGET /poster-image.jpg [33m404[0m 2.119 ms - 155[0m
+
+2024-11-16 19:40:27.197 [info] [127.0.0.1][c8e51700][ExtensionHostConnection] <140> [0mGET /.css [33m404[0m 1.179 ms - 143[0m
+
+2024-11-16 19:40:27.208 [info] [127.0.0.1][c8e51700][ExtensionHostConnection] <140> [0mGET /poster-image.jpg [33m404[0m 3.869 ms - 155[0m
+
+2024-11-16 19:40:29.934 [info] [127.0.0.1][c8e51700][ExtensionHostConnection] <140> [0mGET /poster-image.jpg [33m404[0m 0.918 ms - 155[0m
+
+2024-11-16 19:40:31.011 [info] [127.0.0.1][c8e51700][ExtensionHostConnection] <140> [0mGET /poster-image.jpg [33m404[0m 1.567 ms - 155[0m
+
+2024-11-16 19:41:33.730 [info] [127.0.0.1][c8e51700][ExtensionHostConnection] <140> [0mGET /poster-image.jpg [33m404[0m 1.571 ms - 155[0m
+
+2024-11-16 19:42:17.450 [info] [127.0.0.1][c8e51700][ExtensionHostConnection] <140> [0mGET /poster-image.jpg [33m404[0m 3.283 ms - 155[0m
+
+2024-11-16 19:42:21.214 [info] [127.0.0.1][c8e51700][ExtensionHostConnection] <140> [0mGET /poster-image.jpg [33m404[0m 1.207 ms - 155[0m
+
+2024-11-16 19:42:44.914 [info] [127.0.0.1][c8e51700][ExtensionHostConnection] <140> [0mGET /poster-image.jpg [33m404[0m 2.022 ms - 155[0m
+
+2024-11-16 19:42:49.339 [info] [127.0.0.1][c8e51700][ExtensionHostConnection] <140> [0mGET /po [33m404[0m 1.328 ms - 141[0m
+
+2024-11-16 20:30:11.572 [warning] No ptyHost heartbeat after 6 seconds
+2024-11-16 20:47:17.634 [info] [127.0.0.1][5a7eaf04][ManagementConnection] The client has reconnected.
+2024-11-16 20:47:17.758 [info] [127.0.0.1][c8e51700][ExtensionHostConnection] The client has reconnected.
+2024-11-16 23:00:45.060 [warning] No ptyHost heartbeat after 6 seconds
+2024-11-17 12:54:02.005 [info] [127.0.0.1][c8e51700][ExtensionHostConnection] The client has reconnected.
+2024-11-17 12:54:06.330 [info] [127.0.0.1][5a7eaf04][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+2024-11-17 12:54:08.908 [info] [127.0.0.1][5a7eaf04][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+2024-11-17 12:54:08.909 [info] [127.0.0.1][5a7eaf04][ManagementConnection] The client has reconnected.
+2024-11-17 12:55:32.193 [info] [127.0.0.1][5a7eaf04][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-11-17 12:55:32.940 [info] [127.0.0.1][c8e51700][ExtensionHostConnection] <140> Extension Host Process exited with code: 0, signal: null.

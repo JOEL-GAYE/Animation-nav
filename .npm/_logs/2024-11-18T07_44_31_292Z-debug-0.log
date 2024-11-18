@@ -1,0 +1,22 @@
+0 verbose cli /usr/bin/node /usr/bin/npm
+1 info using npm@10.7.0
+2 info using node@v18.20.4
+3 silly config:load:file:/usr/lib/node_modules/npm/npmrc
+4 silly config:load:file:/home/gaye/solution/mkulima/.npmrc
+5 silly config:load:file:/home/gaye/.npmrc
+6 silly config:load:file:/home/gaye/.npm-global/etc/npmrc
+7 verbose title npm outdated
+8 verbose argv "outdated"
+9 verbose logfile logs-max:10 dir:/home/gaye/.npm/_logs/2024-11-18T07_44_31_292Z-
+10 verbose logfile /home/gaye/.npm/_logs/2024-11-18T07_44_31_292Z-debug-0.log
+11 silly logfile start cleaning logs, removing 1 files
+12 silly logfile done cleaning log files
+13 http fetch GET 200 https://registry.npmjs.org/react-scripts 364ms (cache revalidated)
+14 http fetch GET 200 https://registry.npmjs.org/@testing-library%2fjest-dom 398ms (cache miss)
+15 http fetch GET 200 https://registry.npmjs.org/@testing-library%2freact 403ms (cache miss)
+16 http fetch GET 200 https://registry.npmjs.org/@testing-library%2fuser-event 436ms (cache miss)
+17 http fetch GET 200 https://registry.npmjs.org/react 1236ms (cache miss)
+18 http fetch GET 200 https://registry.npmjs.org/web-vitals 2368ms (cache miss)
+19 http fetch GET 200 https://registry.npmjs.org/react-dom 3288ms (cache miss)
+20 verbose exit 1
+21 verbose code 1

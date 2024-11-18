@@ -1,0 +1,20 @@
+2024-11-16 11:16:30.611 [info] 
+
+
+
+
+2024-11-16 11:16:30.611 [info] Extension host agent started.
+2024-11-16 11:16:30.629 [info] Started initializing default profile extensions in extensions installation folder. file:///home/gaye/.vscode-server/extensions
+2024-11-16 11:16:30.642 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/gaye/.vscode-server/extensions
+2024-11-16 11:16:30.873 [info] [127.0.0.1][de19fc63][ManagementConnection] New connection established.
+2024-11-16 11:16:31.164 [info] [127.0.0.1][eaf0c2a7][ExtensionHostConnection] New connection established.
+2024-11-16 11:16:31.179 [info] [127.0.0.1][eaf0c2a7][ExtensionHostConnection] <740> Launched Extension Host Process.
+2024-11-16 11:16:32.961 [error] [network] #2: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST AggregateError [ETIMEDOUT]: 
+2024-11-16 11:16:35.913 [error] [network] #3: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST AggregateError [ETIMEDOUT]: 
+2024-11-16 11:16:45.533 [info] [127.0.0.1][de19fc63][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-11-16 11:16:45.767 [info] [127.0.0.1][eaf0c2a7][ExtensionHostConnection] <740> Extension Host Process exited with code: 0, signal: null.
+2024-11-16 11:16:48.276 [info] [127.0.0.1][de593d04][ManagementConnection] New connection established.
+2024-11-16 11:16:48.479 [info] [127.0.0.1][117000ba][ExtensionHostConnection] New connection established.
+2024-11-16 11:16:48.551 [info] [127.0.0.1][117000ba][ExtensionHostConnection] <933> Launched Extension Host Process.
+2024-11-16 11:17:05.167 [info] [127.0.0.1][de593d04][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-11-16 11:17:05.299 [info] [127.0.0.1][117000ba][ExtensionHostConnection] <933> Extension Host Process exited with code: 0, signal: null.

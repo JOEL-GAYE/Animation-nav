@@ -1,0 +1,104 @@
+2024-11-16 11:53:29.372 [info] [main] Log level: Info
+2024-11-16 11:53:29.372 [info] [main] Validating found git in: "git"
+2024-11-16 11:53:29.372 [info] [main] Using git "2.47.0" from "git"
+2024-11-16 11:53:29.372 [info] [Model][doInitialScan] Initial repository scan started
+2024-11-16 11:53:29.372 [info] > git rev-parse --show-toplevel [5ms]
+2024-11-16 11:53:29.372 [info] > git rev-parse --git-dir --git-common-dir [49ms]
+2024-11-16 11:53:29.372 [info] [Model][openRepository] Opened repository: /home/gaye/Development/se-prep/phase-2/react-hooks-component-props-mini-project
+2024-11-16 11:53:29.382 [info] > git rev-parse --show-toplevel [5ms]
+2024-11-16 11:53:29.384 [info] > git config --get commit.template [8ms]
+2024-11-16 11:53:29.392 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-11-16 11:53:29.393 [info] > git rev-parse --show-toplevel [6ms]
+2024-11-16 11:53:29.396 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/gaye/Development/se-prep/phase-2/react-hooks-component-props-mini-project/.git/refs/remotes/origin/master'
+2024-11-16 11:53:29.399 [info] > git rev-parse refs/remotes/origin/master [3ms]
+2024-11-16 11:53:29.435 [info] > git status -z -uall [32ms]
+2024-11-16 11:53:29.436 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [28ms]
+2024-11-16 11:53:29.454 [info] > git rev-parse --show-toplevel [56ms]
+2024-11-16 11:53:29.462 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [11ms]
+2024-11-16 11:53:29.481 [info] > git config --local branch.master.vscode-merge-base [16ms]
+2024-11-16 11:53:29.481 [warning] [Git][config] git config failed: Failed to execute git
+2024-11-16 11:53:29.486 [info] > git rev-parse --show-toplevel [25ms]
+2024-11-16 11:53:29.491 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2024-11-16 11:53:29.492 [info] > git config --get commit.template [32ms]
+2024-11-16 11:53:29.493 [info] > git reflog master --grep-reflog=branch: Created from *. [8ms]
+2024-11-16 11:53:29.499 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [3ms]
+2024-11-16 11:53:29.501 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2024-11-16 11:53:29.501 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/master refs/remotes/origin/master [1ms]
+2024-11-16 11:53:29.507 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/gaye/Development/se-prep/phase-2/react-hooks-component-props-mini-project/.git/refs/remotes/origin/master'
+2024-11-16 11:53:29.508 [info] > git config --local branch.master.vscode-merge-base origin/master [3ms]
+2024-11-16 11:53:29.511 [info] > git rev-parse refs/remotes/origin/master [3ms]
+2024-11-16 11:53:29.519 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [4ms]
+2024-11-16 11:53:29.522 [info] > git config --get commit.template [12ms]
+2024-11-16 11:53:29.523 [info] > git config --local branch.master.vscode-merge-base [1ms]
+2024-11-16 11:53:29.532 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2024-11-16 11:53:29.533 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/master refs/remotes/origin/master [6ms]
+2024-11-16 11:53:29.555 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/gaye/Development/se-prep/phase-2/react-hooks-component-props-mini-project/.git/refs/remotes/origin/master'
+2024-11-16 11:53:29.556 [info] > git merge-base refs/heads/master refs/remotes/origin/master [18ms]
+2024-11-16 11:53:29.560 [info] > git rev-parse refs/remotes/origin/master [5ms]
+2024-11-16 11:53:29.564 [info] > git diff --name-status -z --diff-filter=ADMR 5e4028ccd6d6e547ba9f0f91ba3988816407f013...refs/remotes/origin/master [5ms]
+2024-11-16 11:53:29.566 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2024-11-16 11:53:29.567 [info] > git status -z -uall [5ms]
+2024-11-16 11:53:29.920 [info] > git check-ignore -v -z --stdin [1ms]
+2024-11-16 11:53:33.258 [info] > git fetch [3890ms]
+2024-11-16 11:53:33.263 [info] > git config --get commit.template [1ms]
+2024-11-16 11:53:33.267 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-11-16 11:53:33.269 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/gaye/Development/se-prep/phase-2/react-hooks-component-props-mini-project/.git/refs/remotes/origin/master'
+2024-11-16 11:53:33.270 [info] > git rev-parse refs/remotes/origin/master [1ms]
+2024-11-16 11:53:33.277 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2024-11-16 11:53:33.278 [info] > git status -z -uall [6ms]
+2024-11-16 11:54:38.573 [info] > git check-ignore -v -z --stdin [1ms]
+2024-11-16 11:54:39.534 [info] > git config --get commit.template [3ms]
+2024-11-16 11:54:39.534 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-11-16 11:54:39.537 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/gaye/Development/se-prep/phase-2/react-hooks-component-props-mini-project/.git/refs/remotes/origin/master'
+2024-11-16 11:54:39.537 [info] > git rev-parse refs/remotes/origin/master [1ms]
+2024-11-16 11:54:39.546 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2024-11-16 11:54:39.547 [info] > git status -z -uall [5ms]
+2024-11-16 11:56:05.477 [info] > git config --get commit.template [4ms]
+2024-11-16 11:56:05.478 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-11-16 11:56:05.480 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/gaye/Development/se-prep/phase-2/react-hooks-component-props-mini-project/.git/refs/remotes/origin/master'
+2024-11-16 11:56:05.481 [info] > git rev-parse refs/remotes/origin/master [1ms]
+2024-11-16 11:56:05.487 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2024-11-16 11:56:05.487 [info] > git status -z -uall [5ms]
+2024-11-16 11:56:10.496 [info] > git config --get commit.template [3ms]
+2024-11-16 11:56:10.496 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-11-16 11:56:10.498 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/gaye/Development/se-prep/phase-2/react-hooks-component-props-mini-project/.git/refs/remotes/origin/master'
+2024-11-16 11:56:10.499 [info] > git rev-parse refs/remotes/origin/master [1ms]
+2024-11-16 11:56:10.505 [info] > git status -z -uall [4ms]
+2024-11-16 11:56:10.506 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2024-11-16 11:56:15.518 [info] > git config --get commit.template [4ms]
+2024-11-16 11:56:15.519 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-11-16 11:56:15.522 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/gaye/Development/se-prep/phase-2/react-hooks-component-props-mini-project/.git/refs/remotes/origin/master'
+2024-11-16 11:56:15.523 [info] > git rev-parse refs/remotes/origin/master [1ms]
+2024-11-16 11:56:15.530 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2024-11-16 11:56:15.531 [info] > git status -z -uall [6ms]
+2024-11-16 11:56:20.543 [info] > git config --get commit.template [3ms]
+2024-11-16 11:56:20.548 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-11-16 11:56:20.551 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/gaye/Development/se-prep/phase-2/react-hooks-component-props-mini-project/.git/refs/remotes/origin/master'
+2024-11-16 11:56:20.552 [info] > git rev-parse refs/remotes/origin/master [1ms]
+2024-11-16 11:56:20.559 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2024-11-16 11:56:20.561 [info] > git status -z -uall [5ms]
+2024-11-16 11:56:29.180 [info] > git config --get commit.template [5ms]
+2024-11-16 11:56:29.180 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-11-16 11:56:29.182 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/gaye/Development/se-prep/phase-2/react-hooks-component-props-mini-project/.git/refs/remotes/origin/master'
+2024-11-16 11:56:29.183 [info] > git rev-parse refs/remotes/origin/master [1ms]
+2024-11-16 11:56:29.188 [info] > git status -z -uall [4ms]
+2024-11-16 11:56:29.189 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2024-11-16 11:56:40.415 [info] > git fetch [7132ms]
+2024-11-16 11:56:40.427 [info] > git config --get commit.template [2ms]
+2024-11-16 11:56:40.432 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-11-16 11:56:40.435 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/gaye/Development/se-prep/phase-2/react-hooks-component-props-mini-project/.git/refs/remotes/origin/master'
+2024-11-16 11:56:40.436 [info] > git rev-parse refs/remotes/origin/master [1ms]
+2024-11-16 11:56:40.444 [info] > git status -z -uall [5ms]
+2024-11-16 11:56:40.445 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2024-11-16 11:57:53.751 [info] > git config --get commit.template [4ms]
+2024-11-16 11:57:53.767 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-11-16 11:57:53.770 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/gaye/Development/se-prep/phase-2/react-hooks-component-props-mini-project/.git/refs/remotes/origin/master'
+2024-11-16 11:57:53.772 [info] > git rev-parse refs/remotes/origin/master [1ms]
+2024-11-16 11:57:53.784 [info] > git status -z -uall [4ms]
+2024-11-16 11:57:53.788 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [5ms]
+2024-11-16 11:57:58.804 [info] > git config --get commit.template [2ms]
+2024-11-16 11:57:58.809 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-11-16 11:57:58.813 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/gaye/Development/se-prep/phase-2/react-hooks-component-props-mini-project/.git/refs/remotes/origin/master'
+2024-11-16 11:57:58.814 [info] > git rev-parse refs/remotes/origin/master [1ms]
+2024-11-16 11:57:58.821 [info] > git status -z -uall [5ms]
+2024-11-16 11:57:58.822 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]

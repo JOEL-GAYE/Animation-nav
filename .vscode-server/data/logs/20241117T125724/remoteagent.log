@@ -1,0 +1,27 @@
+2024-11-17 12:57:25.107 [info] 
+
+
+
+
+2024-11-17 12:57:25.144 [info] Extension host agent started.
+2024-11-17 12:57:25.779 [info] [127.0.0.1][19a4d027][ManagementConnection] New connection established.
+2024-11-17 12:57:26.449 [info] [127.0.0.1][5f3ab077][ExtensionHostConnection] New connection established.
+2024-11-17 12:57:27.477 [info] [127.0.0.1][5f3ab077][ExtensionHostConnection] <8026> Launched Extension Host Process.
+2024-11-17 12:57:27.897 [error] [network] #2: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST AggregateError [ETIMEDOUT]: 
+2024-11-17 12:57:30.727 [error] [network] #3: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST AggregateError [ETIMEDOUT]: 
+2024-11-17 13:23:14.369 [info] Getting Manifest... esbenp.prettier-vscode
+2024-11-17 13:23:14.759 [info] Installing extension: esbenp.prettier-vscode {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"donotVerifySignature":false,"context":{"clientTargetPlatform":"win32-x64"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"profileLocation":{"$mid":1,"fsPath":"/home/gaye/.vscode-server/extensions/extensions.json","external":"file:///home/gaye/.vscode-server/extensions/extensions.json","path":"/home/gaye/.vscode-server/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.95.3","date":"2024-11-13T14:50:04.152Z"}}
+2024-11-17 13:23:25.950 [info] Extension signature verification result for esbenp.prettier-vscode: Success. Executed: true. Duration: 1813ms.
+2024-11-17 13:23:26.388 [info] Extracted extension to file:///home/gaye/.vscode-server/extensions/esbenp.prettier-vscode-11.0.0: esbenp.prettier-vscode
+2024-11-17 13:23:26.399 [info] Renamed to /home/gaye/.vscode-server/extensions/esbenp.prettier-vscode-11.0.0
+2024-11-17 13:23:26.431 [info] Extension installed successfully: esbenp.prettier-vscode file:///home/gaye/.vscode-server/extensions/extensions.json
+2024-11-17 13:23:30.335 [error] [network] #8: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST AggregateError [ETIMEDOUT]: 
+2024-11-17 17:20:12.297 [info] [127.0.0.1][19a4d027][ManagementConnection] The client has reconnected.
+2024-11-17 17:20:12.580 [info] [127.0.0.1][5f3ab077][ExtensionHostConnection] The client has reconnected.
+2024-11-17 17:20:18.377 [info] [127.0.0.1][19a4d027][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-11-17 17:20:18.893 [info] [127.0.0.1][5f3ab077][ExtensionHostConnection] <8026> Extension Host Process exited with code: 0, signal: null.
+2024-11-17 17:20:21.525 [info] [127.0.0.1][ac364949][ManagementConnection] New connection established.
+2024-11-17 17:20:22.057 [info] [127.0.0.1][171ca92c][ExtensionHostConnection] New connection established.
+2024-11-17 17:20:22.063 [info] [127.0.0.1][171ca92c][ExtensionHostConnection] <6694> Launched Extension Host Process.
+2024-11-17 17:20:31.162 [info] [127.0.0.1][ac364949][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-11-17 17:20:31.411 [info] [127.0.0.1][171ca92c][ExtensionHostConnection] <6694> Extension Host Process exited with code: 0, signal: null.

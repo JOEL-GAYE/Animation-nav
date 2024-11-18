@@ -1,0 +1,62 @@
+2024-11-18 09:26:46.579 [info] [main] Log level: Info
+2024-11-18 09:26:46.579 [info] [main] Validating found git in: "git"
+2024-11-18 09:26:46.579 [info] [main] Using git "2.47.0" from "git"
+2024-11-18 09:26:46.579 [info] [Model][doInitialScan] Initial repository scan started
+2024-11-18 09:26:46.579 [info] > git rev-parse --show-toplevel [99ms]
+2024-11-18 09:26:46.580 [info] > git rev-parse --git-dir --git-common-dir [7ms]
+2024-11-18 09:26:46.598 [info] [Model][openRepository] Opened repository: /home/gaye
+2024-11-18 09:26:46.605 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2024-11-18 09:26:46.613 [info] > git config --get commit.template [3ms]
+2024-11-18 09:26:46.619 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-11-18 09:26:46.678 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [51ms]
+2024-11-18 09:26:50.400 [info] > git fetch [3803ms]
+2024-11-18 09:26:50.411 [info] > git status -z -uall [3788ms] (cancelled)
+2024-11-18 09:26:50.411 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [8ms]
+2024-11-18 09:26:50.415 [info] > git config --local branch.main.vscode-merge-base [2ms]
+2024-11-18 09:26:50.416 [warning] [Git][config] git config failed: Failed to execute git
+2024-11-18 09:26:50.418 [info] > git config --get commit.template [8ms]
+2024-11-18 09:26:50.418 [info] > git config --get commit.template [10ms]
+2024-11-18 09:26:50.437 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [16ms]
+2024-11-18 09:26:50.440 [info] > git reflog main --grep-reflog=branch: Created from *. [22ms]
+2024-11-18 09:26:50.451 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [12ms]
+2024-11-18 09:26:50.453 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [30ms]
+2024-11-18 09:26:50.458 [info] > git config --local branch.main.vscode-merge-base [5ms]
+2024-11-18 09:26:50.458 [warning] [Git][config] git config failed: Failed to execute git
+2024-11-18 09:26:50.461 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [18ms]
+2024-11-18 09:26:50.461 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-11-18 09:26:50.461 [warning] [Repository][getDefaultBranch] Failed to get default branch details: Failed to execute git.
+2024-11-18 09:26:50.463 [info] > git reflog main --grep-reflog=branch: Created from *. [2ms]
+2024-11-18 09:26:50.465 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [8ms]
+2024-11-18 09:26:50.466 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [1ms]
+2024-11-18 09:26:50.466 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-11-18 09:26:50.466 [warning] [Repository][getDefaultBranch] Failed to get default branch details: Failed to execute git.
+2024-11-18 09:26:54.657 [info] > git status -z -uall [4202ms] (cancelled)
+2024-11-18 09:28:48.334 [info] > git show --textconv :solution/login/index.html [5ms]
+2024-11-18 09:28:48.337 [info] > git ls-files --stage -- /home/gaye/solution/login/index.html [4ms]
+2024-11-18 09:28:48.546 [info] > git check-ignore -v -z --stdin [1ms]
+2024-11-18 09:40:49.032 [info] > git show --textconv :solution/login/index.html [4ms]
+2024-11-18 09:40:49.039 [info] > git ls-files --stage -- /home/gaye/solution/login/index.html [5ms]
+2024-11-18 09:40:55.993 [info] > git show --textconv :solution/login/index.css [4ms]
+2024-11-18 09:40:55.994 [info] > git ls-files --stage -- /home/gaye/solution/login/index.css [2ms]
+2024-11-18 09:40:56.258 [info] > git check-ignore -v -z --stdin [2ms]
+2024-11-18 09:40:57.861 [info] > git show --textconv :solution/login/index.html [3ms]
+2024-11-18 09:40:57.862 [info] > git ls-files --stage -- /home/gaye/solution/login/index.html [2ms]
+2024-11-18 09:41:32.259 [info] > git show --textconv :solution/login/index.css [3ms]
+2024-11-18 09:41:32.260 [info] > git ls-files --stage -- /home/gaye/solution/login/index.css [2ms]
+2024-11-18 09:43:30.765 [info] > git check-ignore -v -z --stdin [4ms]
+2024-11-18 09:50:19.129 [info] > git show --textconv :solution/login/index.html [5ms]
+2024-11-18 09:50:19.131 [info] > git ls-files --stage -- /home/gaye/solution/login/index.html [2ms]
+2024-11-18 09:50:28.058 [info] > git show --textconv :solution/login/index.css [6ms]
+2024-11-18 09:50:28.059 [info] > git ls-files --stage -- /home/gaye/solution/login/index.css [3ms]
+2024-11-18 09:53:51.558 [info] > git show --textconv :solution/login/index.html [4ms]
+2024-11-18 09:53:51.561 [info] > git ls-files --stage -- /home/gaye/solution/login/index.html [3ms]
+2024-11-18 09:54:01.085 [info] > git show --textconv :solution/login/index.css [4ms]
+2024-11-18 09:54:01.087 [info] > git ls-files --stage -- /home/gaye/solution/login/index.css [3ms]
+2024-11-18 09:54:37.365 [info] > git show --textconv :solution/login/index.html [6ms]
+2024-11-18 09:54:37.366 [info] > git ls-files --stage -- /home/gaye/solution/login/index.html [4ms]
+2024-11-18 09:54:44.636 [info] > git show --textconv :solution/login/index.css [5ms]
+2024-11-18 09:54:44.637 [info] > git ls-files --stage -- /home/gaye/solution/login/index.css [2ms]
+2024-11-18 10:11:57.082 [info] > git show --textconv :solution/login/index.html [6ms]
+2024-11-18 10:11:57.084 [info] > git ls-files --stage -- /home/gaye/solution/login/index.html [4ms]
+2024-11-18 10:40:22.299 [info] > git ls-files --stage -- /home/gaye/solution/login/index.html [2ms]
+2024-11-18 10:40:22.369 [info] > git show --textconv :solution/login/index.html [6ms]

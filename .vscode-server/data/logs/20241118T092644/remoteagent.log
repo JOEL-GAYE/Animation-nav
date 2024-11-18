@@ -1,0 +1,30 @@
+2024-11-18 09:26:44.587 [info] 
+
+
+
+
+2024-11-18 09:26:44.597 [info] Extension host agent started.
+2024-11-18 09:26:44.944 [info] [127.0.0.1][29eca190][ManagementConnection] New connection established.
+2024-11-18 09:26:45.177 [info] [127.0.0.1][60150a67][ExtensionHostConnection] New connection established.
+2024-11-18 09:26:45.189 [info] [127.0.0.1][60150a67][ExtensionHostConnection] <17816> Launched Extension Host Process.
+2024-11-18 09:26:46.936 [error] [network] #2: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST AggregateError [ETIMEDOUT]: 
+2024-11-18 09:26:49.737 [error] [network] #3: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST AggregateError [ETIMEDOUT]: 
+2024-11-18 09:34:04.008 [info] [127.0.0.1][60150a67][ExtensionHostConnection] <17816> [0mGET /favicon.ico [33m404[0m 2.634 ms - 150[0m
+
+2024-11-18 09:43:16.022 [info] [127.0.0.1][60150a67][ExtensionHostConnection] <17816> [0mGET /background.jpg [33m404[0m 4.624 ms - 153[0m
+
+2024-11-18 09:43:30.402 [info] [127.0.0.1][60150a67][ExtensionHostConnection] <17816> [0mGET /background.jpg [33m404[0m 1.058 ms - 153[0m
+
+2024-11-18 10:39:32.455 [info] [127.0.0.1][367ab546][ManagementConnection] New connection established.
+2024-11-18 10:39:32.863 [info] [127.0.0.1][1b2b06bb][ExtensionHostConnection] New connection established.
+2024-11-18 10:39:32.879 [info] [127.0.0.1][1b2b06bb][ExtensionHostConnection] <27634> Launched Extension Host Process.
+2024-11-18 10:40:08.956 [info] [127.0.0.1][367ab546][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-11-18 10:40:09.214 [info] [127.0.0.1][1b2b06bb][ExtensionHostConnection] <27634> Extension Host Process exited with code: 0, signal: null.
+2024-11-18 10:40:11.896 [info] [127.0.0.1][1daaaa5e][ManagementConnection] New connection established.
+2024-11-18 10:40:12.335 [info] [127.0.0.1][bb5f7b29][ExtensionHostConnection] New connection established.
+2024-11-18 10:40:12.343 [info] [127.0.0.1][bb5f7b29][ExtensionHostConnection] <27831> Launched Extension Host Process.
+2024-11-18 10:40:20.144 [info] [127.0.0.1][1daaaa5e][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-11-18 10:40:20.389 [info] [127.0.0.1][bb5f7b29][ExtensionHostConnection] <27831> Extension Host Process exited with code: 0, signal: null.
+2024-11-18 10:48:46.938 [info] [127.0.0.1][e5062bc7][ManagementConnection] New connection established.
+2024-11-18 10:48:47.362 [info] [127.0.0.1][85ead062][ExtensionHostConnection] New connection established.
+2024-11-18 10:48:47.366 [info] [127.0.0.1][85ead062][ExtensionHostConnection] <28886> Launched Extension Host Process.

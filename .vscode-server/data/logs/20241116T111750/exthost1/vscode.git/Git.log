@@ -1,0 +1,34 @@
+2024-11-16 11:17:55.358 [info] [main] Log level: Info
+2024-11-16 11:17:55.358 [info] [main] Validating found git in: "git"
+2024-11-16 11:17:55.358 [info] [main] Using git "2.47.0" from "git"
+2024-11-16 11:17:55.358 [info] [Model][doInitialScan] Initial repository scan started
+2024-11-16 11:17:55.358 [info] > git rev-parse --show-toplevel [17ms]
+2024-11-16 11:17:55.358 [info] > git rev-parse --git-dir --git-common-dir [50ms]
+2024-11-16 11:17:55.358 [info] [Model][openRepository] Opened repository: /home/gaye/Development/se-prep/phase-2/react-hooks-cc-plantshop
+2024-11-16 11:17:55.512 [info] > git config --get commit.template [135ms]
+2024-11-16 11:17:55.514 [info] > git rev-parse --show-toplevel [137ms]
+2024-11-16 11:17:55.623 [info] > git rev-parse --show-toplevel [79ms]
+2024-11-16 11:17:55.624 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [86ms]
+2024-11-16 11:17:55.651 [info] > git rev-parse --show-toplevel [13ms]
+2024-11-16 11:17:55.734 [info] > git status -z -uall [60ms]
+2024-11-16 11:17:55.734 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [45ms]
+2024-11-16 11:17:55.764 [info] > git rev-parse --show-toplevel [107ms]
+2024-11-16 11:17:55.776 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [20ms]
+2024-11-16 11:17:55.788 [info] > git rev-parse --show-toplevel [14ms]
+2024-11-16 11:17:55.797 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2024-11-16 11:17:55.798 [info] > git config --get commit.template [28ms]
+2024-11-16 11:17:55.801 [info] > git config --local branch.master.vscode-merge-base [20ms]
+2024-11-16 11:17:55.872 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/master refs/remotes/origin/master [48ms]
+2024-11-16 11:17:55.906 [info] > git merge-base refs/heads/master refs/remotes/origin/master [28ms]
+2024-11-16 11:17:55.916 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [81ms]
+2024-11-16 11:17:55.935 [info] > git show --textconv :src/components/App.js [12ms]
+2024-11-16 11:17:55.935 [info] > git diff --name-status -z --diff-filter=ADMR 40fd52bdb84a976a964fa756a6029b8501e991ef...refs/remotes/origin/master [22ms]
+2024-11-16 11:17:55.947 [info] > git ls-files --stage -- /home/gaye/Development/se-prep/phase-2/react-hooks-cc-plantshop/src/components/App.js [13ms]
+2024-11-16 11:17:55.966 [info] > git cat-file -s 699c0c2f72bb0da35f93fff6a24b4437e42f47c7 [1ms]
+2024-11-16 11:17:55.986 [info] > git status -z -uall [5ms]
+2024-11-16 11:17:55.988 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [4ms]
+2024-11-16 11:17:56.087 [info] > git check-ignore -v -z --stdin [6ms]
+2024-11-16 11:18:35.401 [info] > git show --textconv :package.json [13ms]
+2024-11-16 11:18:35.405 [info] > git ls-files --stage -- /home/gaye/Development/se-prep/phase-2/react-hooks-cc-plantshop/package.json [7ms]
+2024-11-16 11:18:35.413 [info] > git cat-file -s 1232a9dcbd1637c6657f121fe28077adacca9328 [4ms]
+2024-11-16 11:18:35.731 [info] > git check-ignore -v -z --stdin [2ms]

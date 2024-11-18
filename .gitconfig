@@ -1,0 +1,7 @@
+[user]
+	email = joelgaye17@gmail.com
+	name = joel
+[color]
+	ui = true
+[init]
+	defaultBranch = main

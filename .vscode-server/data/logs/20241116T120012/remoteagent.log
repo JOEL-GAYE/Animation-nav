@@ -1,0 +1,13 @@
+2024-11-16 12:00:12.797 [info] 
+
+
+
+
+2024-11-16 12:00:12.817 [info] Extension host agent started.
+2024-11-16 12:00:12.995 [info] [127.0.0.1][f743f191][ManagementConnection] New connection established.
+2024-11-16 12:00:13.456 [info] [127.0.0.1][c9923d7c][ExtensionHostConnection] New connection established.
+2024-11-16 12:00:13.465 [info] [127.0.0.1][c9923d7c][ExtensionHostConnection] <133> Launched Extension Host Process.
+2024-11-16 12:00:15.290 [error] [network] #2: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST AggregateError [ETIMEDOUT]: 
+2024-11-16 12:00:19.014 [error] [network] #3: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST AggregateError [ETIMEDOUT]: 
+2024-11-16 12:02:11.866 [info] [127.0.0.1][f743f191][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-11-16 12:02:12.135 [info] [127.0.0.1][c9923d7c][ExtensionHostConnection] <133> Extension Host Process exited with code: 0, signal: null.

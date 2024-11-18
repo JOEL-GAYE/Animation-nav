@@ -1,0 +1,42 @@
+2024-11-16 12:03:02.210 [info] [main] Log level: Info
+2024-11-16 12:03:02.210 [info] [main] Validating found git in: "git"
+2024-11-16 12:03:02.210 [info] [main] Using git "2.47.0" from "git"
+2024-11-16 12:03:02.210 [info] [Model][doInitialScan] Initial repository scan started
+2024-11-16 12:03:02.210 [info] > git rev-parse --show-toplevel [9ms]
+2024-11-16 12:03:02.210 [info] > git rev-parse --git-dir --git-common-dir [7ms]
+2024-11-16 12:03:02.210 [info] [Model][openRepository] Opened repository: /home/gaye/portfolio
+2024-11-16 12:03:02.210 [info] > git rev-parse --show-toplevel [49ms]
+2024-11-16 12:03:02.210 [info] > git config --get commit.template [52ms]
+2024-11-16 12:03:02.229 [info] > git rev-parse --show-toplevel [11ms]
+2024-11-16 12:03:02.233 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2024-11-16 12:03:02.236 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [14ms]
+2024-11-16 12:03:02.249 [info] > git status -z -uall [9ms]
+2024-11-16 12:03:02.253 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [9ms]
+2024-11-16 12:03:02.274 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [14ms]
+2024-11-16 12:03:02.280 [info] > git config --local branch.main.vscode-merge-base [3ms]
+2024-11-16 12:03:02.280 [warning] [Git][config] git config failed: Failed to execute git
+2024-11-16 12:03:02.283 [info] > git config --get commit.template [16ms]
+2024-11-16 12:03:02.286 [info] > git reflog main --grep-reflog=branch: Created from *. [4ms]
+2024-11-16 12:03:02.288 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-11-16 12:03:02.290 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [2ms]
+2024-11-16 12:03:02.290 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-11-16 12:03:02.290 [warning] [Repository][getDefaultBranch] Failed to get default branch details: Failed to execute git.
+2024-11-16 12:03:02.320 [info] > git merge-base refs/heads/main refs/remotes/origin/main [28ms]
+2024-11-16 12:03:02.324 [info] > git diff --name-status -z --diff-filter=ADMR 680439b7261a625e59bc43b9492f582921e1bef9...refs/remotes/origin/main [2ms]
+2024-11-16 12:03:02.330 [info] > git status -z -uall [4ms]
+2024-11-16 12:03:02.330 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2024-11-16 12:03:02.480 [info] > git show --textconv :index.html [6ms]
+2024-11-16 12:03:02.483 [info] > git ls-files --stage -- /home/gaye/portfolio/index.html [4ms]
+2024-11-16 12:03:02.491 [info] > git cat-file -s 16950d382930580eea6ac08a2a46269cb2a32143 [4ms]
+2024-11-16 12:03:02.715 [info] > git check-ignore -v -z --stdin [4ms]
+2024-11-16 12:03:03.372 [info] > git ls-files --stage -- /home/gaye/portfolio/index.html [3ms]
+2024-11-16 12:03:03.380 [info] > git cat-file -s 16950d382930580eea6ac08a2a46269cb2a32143 [3ms]
+2024-11-16 12:03:03.396 [info] > git show --textconv :index.html [2ms]
+2024-11-16 12:03:08.612 [info] > git fetch [6463ms]
+2024-11-16 12:03:08.624 [info] > git config --get commit.template [6ms]
+2024-11-16 12:03:08.626 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-11-16 12:03:08.633 [info] > git status -z -uall [4ms]
+2024-11-16 12:03:08.634 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2024-11-16 12:03:09.174 [info] > git ls-files --stage -- /home/gaye/portfolio/index.html [3ms]
+2024-11-16 12:03:09.179 [info] > git cat-file -s 16950d382930580eea6ac08a2a46269cb2a32143 [2ms]
+2024-11-16 12:03:09.192 [info] > git show --textconv :index.html [2ms]

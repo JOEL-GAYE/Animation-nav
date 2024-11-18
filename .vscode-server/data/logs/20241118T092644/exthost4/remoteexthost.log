@@ -1,0 +1,25 @@
+2024-11-18 10:48:48.121 [info] Extension host with pid 28886 started
+2024-11-18 10:48:48.168 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-11-18 10:48:48.182 [info] ExtensionService#_doActivateExtension vscode.npm, startup: true, activationEvent: 'workspaceContains:package.json'
+2024-11-18 10:48:48.229 [info] Lock '/home/gaye/.vscode-server/data/User/workspaceStorage/eeb7dba65b769116c71befd72876b0d5/vscode.lock': Lock acquired.
+2024-11-18 10:48:48.269 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-11-18 10:48:48.270 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-11-18 10:48:48.678 [info] Eager extensions activated
+2024-11-18 10:48:48.679 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-11-18 10:48:48.680 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-11-18 10:48:48.680 [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+2024-11-18 10:48:48.681 [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer, startup: false, activationEvent: 'onStartupFinished'
+2024-11-18 10:48:49.062 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-11-18 10:48:53.506 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10000
+2024-11-18 10:48:54.647 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10000
+2024-11-18 10:48:55.567 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:json'
+2024-11-18 10:48:55.568 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
+2024-11-18 10:48:55.568 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:json'
+2024-11-18 10:49:04.864 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10000
+2024-11-18 10:49:06.032 [warning] [Decorations] CAPPING events from decorations provider vscode.git 10400
+2024-11-18 10:52:09.744 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5870
+2024-11-18 10:52:10.513 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5870
+2024-11-18 10:52:35.158 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5870
+2024-11-18 10:53:10.611 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5867
+2024-11-18 10:54:52.992 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5929
+2024-11-18 10:54:53.967 [warning] [Decorations] CAPPING events from decorations provider vscode.git 5929

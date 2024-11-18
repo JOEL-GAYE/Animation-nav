@@ -1,0 +1,21 @@
+{
+    "workbench.colorTheme": "Abyss",
+    "terminal.integrated.defaultProfile.linux": "bash",
+    "workbench.startupEditor": "none",
+    "diffEditor.useInlineViewWhenSpaceIsLimited": false,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "liveServer.settings.donotVerifyTags": true,
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "files.autoSave": "afterDelay",
+    "security.allowedUNCHosts": [
+        "wsl.localhost"
+    ],
+    "git.autofetch": true,
+    "remote.autoForwardPortsSource": "hybrid",
+    "security.workspace.trust.untrustedFiles": "open",
+    "workbench.iconTheme": "material-icon-theme",
+    "material-icon-theme.files.color": "#90a4ae",
+    "material-icon-theme.activeIconPack": "angular"
+}
