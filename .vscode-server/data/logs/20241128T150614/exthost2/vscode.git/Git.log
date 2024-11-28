@@ -1,0 +1,32 @@
+2024-11-28 15:24:18.787 [info] [main] Log level: Info
+2024-11-28 15:24:18.787 [info] [main] Validating found git in: "git"
+2024-11-28 15:24:18.787 [info] [main] Using git "2.47.1" from "git"
+2024-11-28 15:24:18.787 [info] [Model][doInitialScan] Initial repository scan started
+2024-11-28 15:24:18.787 [info] > git rev-parse --show-toplevel [27ms]
+2024-11-28 15:24:18.787 [info] > git rev-parse --git-dir --git-common-dir [4ms]
+2024-11-28 15:24:18.787 [info] [Model][openRepository] Opened repository: /home/gaye/.nvm
+2024-11-28 15:24:18.790 [info] > git config --get commit.template [7ms]
+2024-11-28 15:24:18.791 [info] > git rev-parse --show-toplevel [5ms]
+2024-11-28 15:24:18.802 [info] > git for-each-ref --format %(refname) %(objectname) %(*objectname) refs/tags [7ms]
+2024-11-28 15:24:18.841 [info] > git rev-parse --show-toplevel [42ms]
+2024-11-28 15:24:18.847 [info] > git status -z -uall [42ms]
+2024-11-28 15:24:18.848 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [38ms]
+2024-11-28 15:24:18.887 [info] > git rev-parse --show-toplevel [40ms]
+2024-11-28 15:24:18.893 [info] > git config --get commit.template [22ms]
+2024-11-28 15:24:18.896 [info] > git rev-parse --show-toplevel [4ms]
+2024-11-28 15:24:18.903 [info] > git for-each-ref --format %(refname) %(objectname) %(*objectname) refs/tags [4ms]
+2024-11-28 15:24:18.993 [info] > git status -z -uall [88ms]
+2024-11-28 15:24:18.993 [info] > git rev-parse --show-toplevel [91ms]
+2024-11-28 15:24:18.997 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2024-11-28 15:24:19.000 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [92ms]
+2024-11-28 15:24:19.321 [info] > git check-ignore -v -z --stdin [1ms]
+2024-11-28 15:24:19.939 [info] > git fetch [1164ms]
+2024-11-28 15:24:19.945 [info] > git config --get commit.template [3ms]
+2024-11-28 15:24:19.946 [info] > git for-each-ref --format %(refname) %(objectname) %(*objectname) refs/tags [2ms]
+2024-11-28 15:24:19.954 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2024-11-28 15:24:19.960 [info] > git status -z -uall [12ms]
+2024-11-28 15:24:20.969 [info] > git check-ignore -v -z --stdin [5ms]
+2024-11-28 15:24:21.049 [info] > git config --get commit.template [2ms]
+2024-11-28 15:24:21.053 [info] > git for-each-ref --format %(refname) %(objectname) %(*objectname) refs/tags [2ms]
+2024-11-28 15:24:21.101 [info] > git status -z -uall [46ms]
+2024-11-28 15:24:21.102 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [45ms]
